@@ -1,0 +1,44 @@
+body
+
+{background-color: hsl(195.35, 100%, 16.86%)
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2C858D;
+  padding: 20px;
+  height 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  top: 50%;
+  position: relative;
+  margin-top: 25%;
+}
+
+.grid-container > div {
+  background-color:  #74CEB7;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+a {text-decoration: white;
+  color: white;
+}
+
+.mainheader {
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px 5px;
+  border 2px solid black;
+  font-size: 30px;
+}
