@@ -36,3 +36,4 @@ if (isset($_POST["fortsett"])) {
     echo "Du har ikke svart ja eller nei på spørsmålet om du er student.";
   }
 }
+?>
